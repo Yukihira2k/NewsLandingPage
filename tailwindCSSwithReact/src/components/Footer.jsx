@@ -1,11 +1,11 @@
-import image1 from "../assets/images/image-retro-pcs.jpg"
-import image2 from "../assets/images/image-top-laptops.jpg"
-import image3 from "../assets/images/image-gaming-growth.jpg"
+import image1 from "/images/image-retro-pcs.jpg"
+import image2 from "/images/image-top-laptops.jpg"
+import image3 from "/images/image-gaming-growth.jpg"
 
 function Footer(){
     return(
         <>
-        <div className="flex justify-center items-start mt-24 max-md:flex-col">
+        <div className="flex justify-center mb-10 items-start mt-24 max-md:flex-col max-lg:mt-10 max-lg:flex-col max-lg:items-center max-lg:gap-5">
             <div className="flex max-md:flex-row max-md:my-2 max-md:mx-5">
             <div>
                 <img src={image1} className="h-32 mr-5"></img>
